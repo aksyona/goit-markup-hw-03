@@ -1,0 +1,201 @@
+/*Цвет основного текста color: #212121*/
+/* вторичный цвет color: #757575;*/
+/* белый color: #FFFFFF;*/
+/* акцент color: #2196F3;*/
+/* вторичный цвет фона */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+
+}
+
+
+body {
+  background: #FFFFFF;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* Шапка */
+
+.logo-web {
+  color: var(--accent-color);
+ font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+.logo {
+ color: var(--primary-text-color);
+ font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+.list {
+  list-style: none;
+}
+
+.site-nave {
+ color: var(--primary-text-color);
+ font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.title {
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+}
+.title-button,
+.footer-button,
+.nav-button {
+  background: #2196F3;
+  color: #FFFFFF;
+  font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.nav-button {
+  background: #FFFFFF;
+  color: #212121;
+}
+
+/* Преимущества */
+
+h3 {
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+.edge-text {
+  color: var(--title-text-color);
+  font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+.edge-img {
+  background: #F5F4FA;
+}
+
+
+/* Деятельность */
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+.list-do {
+  background: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+/* Персонал */
+
+.personal {
+  background: #F5F4FA;
+
+}
+.personal-title {
+  color:var(--title-text-color);
+  font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+.personal-link:hover,
+.personal-link:focus {
+  color:var(--accent-color);
+}
+
+.people {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+/* Партнеры */
+
+.customers-link:hover,
+.customers-link:focus {
+  color:var(--accent-color);
+}
+
+/* Футер */
+.footer,
+.footer-logo,
+.footer-nav {
+  background: #2F303A;
+  color: #FFFFFF;
+  font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.footer-nav link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+
+.title-work {
+  font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color)
+}
+
+.text-work {
+  font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+background: rgba(47, 48, 58, 0.8);
+color: #FFFFFF;
+}
+
+.work-list {
+  font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after { 
+  box-sizing: inherit;
+}
+
+.container {
+  width: 498px;
+  margin-left: auto;
+  margin-right: auto;
+}
