@@ -36,6 +36,8 @@ line-height: 1.19;
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .site-nave {
@@ -50,7 +52,10 @@ line-height: 1.19;
 .link:focus {
   color: var(--accent-color);
 }
-
+.hero {
+  text-align: center;
+  padding: 200px 452px;
+}
 .title {
   background: rgba(47, 48, 58, 0.8);
   color: #FFFFFF;
@@ -58,10 +63,14 @@ line-height: 1.19;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
+margin-top: 0;
+margin-bottom: 30px;
 }
 .title-button,
 .footer-button,
 .nav-button {
+  border-radius: 4px;
+  text-align: center;
   background: #2196F3;
   color: #FFFFFF;
   font-family: inherit;
@@ -71,9 +80,16 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 }
 
+.title-button {
+  padding: 10px 32px;
+}
+
 .nav-button {
   background: #FFFFFF;
   color: #212121;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
 }
 
 /* Преимущества */
@@ -83,6 +99,8 @@ h3 {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .edge-text {
@@ -90,9 +108,12 @@ letter-spacing: 0.03em;
   font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+margin-top: 10px;
+margin-bottom: 0;
 }
 .edge-img {
   background: #F5F4FA;
+  margin-bottom: 30px;
 }
 
 
@@ -102,6 +123,9 @@ h2 {
   font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 50px;
+text-align: center;
 }
 
 .list-do {
@@ -124,6 +148,8 @@ letter-spacing: 0.03em;
   font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+margin-bottom: 0;
+margin-top: 10px;
 }
 .personal-link:hover,
 .personal-link:focus {
@@ -146,7 +172,6 @@ letter-spacing: 0.03em;
 
 /* Футер */
 .footer,
-.footer-logo,
 .footer-nav {
   background: #2F303A;
   color: #FFFFFF;
@@ -159,6 +184,13 @@ letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-logo {
+  background: #2F303A;
+  color: #FFFFFF;
+  font-size: 24px;
+line-height: 1.66;
+letter-spacing: 0.03em;
+}
 /* Портфолио */
 
 .title-work {
@@ -195,7 +227,15 @@ html {
 }
 
 .container {
-  width: 498px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+section {
+  padding: 94px 0;
+}
+.user {
+  padding-top: 0;
 }
