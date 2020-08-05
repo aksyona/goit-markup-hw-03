@@ -18,6 +18,35 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+.container { 
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-nav {
+  display: flex;
+}
+section {
+  padding: 94px 0;
+}
+
+
+.user {
+  padding-top: 0;
+} 
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
 /* Шапка */
 
 .logo-web {
@@ -34,24 +63,40 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 }
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-.site-nave {
+
+.site-nav {
+  display: flex;
  color: var(--primary-text-color);
  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+
 }
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
+
+.site-nav.list {
+display: flex;
+
 }
+.list .item+ .item {
+  margin-left: 50px;
+}
+
+.item .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32 px;
+  outline: 2px solid yellow;
+}
+
+.auth .item{
+  display: flex;
+  outline: 2px solid green;
+}
+
+
 .hero {
   text-align: center;
   padding: 200px 452px;
@@ -93,7 +138,6 @@ letter-spacing: 0.03em;
 }
 
 /* Преимущества */
-
 h3 {
   font-weight: 700;
 font-size: 14px;
@@ -136,12 +180,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 }
-
 /* Персонал */
-
 .personal {
   background: #F5F4FA;
-
 }
 .personal-title {
   color:var(--title-text-color);
@@ -155,16 +196,13 @@ margin-top: 10px;
 .personal-link:focus {
   color:var(--accent-color);
 }
-
 .people {
   font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
 }
-
 /* Партнеры */
-
 .customers-link:hover,
 .customers-link:focus {
   color:var(--accent-color);
@@ -172,6 +210,7 @@ letter-spacing: 0.03em;
 
 /* Футер */
 .footer,
+.footer-logo,
 .footer-nav {
   background: #2F303A;
   color: #FFFFFF;
@@ -179,7 +218,6 @@ letter-spacing: 0.03em;
 line-height: 1.7;
 letter-spacing: 0.03em;
 }
-
 .footer-nav link {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -200,7 +238,6 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color)
 }
-
 .text-work {
   font-size: 18px;
 line-height: 1.5;
@@ -208,34 +245,17 @@ letter-spacing: 0.03em;
 background: rgba(47, 48, 58, 0.8);
 color: #FFFFFF;
 }
-
 .work-list {
   font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
-
 html {
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after { 
   box-sizing: inherit;
-}
-
-.container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid tomato;
-}
-section {
-  padding: 94px 0;
-}
-.user {
-  padding-top: 0;
 }
