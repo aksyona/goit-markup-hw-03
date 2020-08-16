@@ -326,6 +326,9 @@ text-decoration: none;
 
 .item-link {
   margin-right: 10px;
+  /*display: inline-block;
+  display: flex;
+  justify-content: space-around;*/
 }
 
 /* Партнеры */
@@ -481,13 +484,18 @@ text-decoration: none;
   display: block;
 }
 
-.list .flex-element {
+.flex-element {
   width: 380px;
   margin-left: 0;
   margin-right: 30px;
   margin-bottom: 30px;
 
 }
+
+/*.item-link.flex-element {
+display: inline-block;
+}*/
+
 .flex-element:nth-child(3n) {
   margin-right: 0;
   
